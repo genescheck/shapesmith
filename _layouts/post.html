@@ -9,7 +9,7 @@ layout: layout
       {% for post in site.posts %}
       <li>
 	<div><a href="{{ post.url }}">{{ post.title }}</a><br/>
-	  <div>{{ post.date | date: "%B %e, %Y" }}</div>
+	  <div class="date">{{ post.date | date:"%Y-%m-%d" }}</div>
       </li>
       {% endfor %}
     </ul>
@@ -17,15 +17,11 @@ layout: layout
 
     <div class="eightcol">
 
-
-      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      {% if page.title_image %}
+      <img style="float: right;" src="{{page.title_image}}"/>
+      {% endif %}
+     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
       <h4>Posted on {{ page.date | date_to_string }} by <a href="http://twitter.com/bjnortier">Benjamin Nortier</a></h4>
-      <script>
-	var idcomments_acct = 'cb1078b244d71cf4fd087c5c9f074195';
-	var idcomments_post_id;
-	var idcomments_post_url;
-      </script>
-      <script type="text/javascript" src="http://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
 
       <div class="post-content">
 	{{ content }}

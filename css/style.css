@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-style: bold;
+    font-weight: normal;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
@@ -32,10 +32,15 @@ a:visited, a:link {
     color: #2DD700;
 }
 
+h1 a:visited, h1 a:link {
+    text-decoration:none;
+}
+
 .menu a:visited, .menu a:link, h2 a:visited, h2 a:link {
     color: #eeeeee;
     text-decoration:none;
 }
+
 
 h1 a:hover {
     text-decoration: underline;
@@ -50,7 +55,7 @@ h1 a:hover {
     text-align: center;
 }
 
-.posts span.date {
+.date {
     font-family: Monaco, "Courier New", monospace;
     font-size: 0.8em;
     margin-right: 1em;
