@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <title>Shapesmith.net</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shapesmith is an advanced, open-source 3d modeling application in your browser">
+    <meta name="author" content="Benjamin Nortier">
     
-    <!-- 1140pc grid: http://cssgrid.net/ -->
-    <!-- 1140px Grid styles for IE -->
-    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen" /><![endif]-->
+    <!-- Le styles -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+   <link href="/css/prettify.css" rel="stylesheet">
+    <link href="/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
 
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Shapesmith ATOM Feed" />
-    <link href='http://fonts.googleapis.com/css?family=Puritan' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/1140.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
-    
-    <!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
-    <script src="/js/css3-mediaqueries.js" type="text/javascript"></script>
-    
-</style>
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
 
-</head>
-<body>
-  
-  <a href="http://github.com/bjnortier/shapesmith"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/4c7dc970b89fd04b81c8e221ba88ff99a06c6b61/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub"></a>
-  <div class="container">
-    <div class="row">
-      <div class="twocol"></div>
-      <div class="eightcol">
-	<a href="/"><img src="/img/logo.png"/></a>
-	</br>
-	<div class="menu nav">
-	  <a href="/blog.html">blog</a>
-	  <a href="/about.html">about</a>
-	  <a href="http://www.twitter.com/shapesmith">@shapesmith</a>
+  <a href="https://github.com/bjnortier/shapesmith"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/4c7dc970b89fd04b81c8e221ba88ff99a06c6b61/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub"></a>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+
+    <div class="navbar navbar-narrow">
+      <div class="navbar-inner">
+	<div class="container">
+	  <span class="span3 fix">&nbsp;</span>
+	  <ul class="nav span5">
+	    <li><a href="/">Home</a></li>
+	    <li><a href="/blog.html">Blog</a></li>
+	    <li><a href="/about.html">About</a></li>
+	    <li><a href="https://github.com/bjnortier/shapesmith">Get
+	    the code</a></li>
+
+	    <li>
+	      <a href="http://www.twitter.com/shapesmith"><i style="font-size:
+ 16px;" class="icon-twitter-sign icon-white"></i>
+ @shapesmith</a>
+	    </li>
+	  </ul>
+	  <div class="span3">&nbsp;</div>
 	</div>
-     </div>
-      <div class="twocol last"></div>
-
     </div>
-    
-    {{ content }}
+    </div>
+    </div>
   </div>
-  
+
+  {{ content }}
 
 <script type="text/javascript">
   var _gaq = _gaq || [];

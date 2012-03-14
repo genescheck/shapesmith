@@ -2,6 +2,7 @@
 layout: post
 title: To simplicity... and beyond!
 title_image: /img/tosimplicity/buzz.png
+summary: When I started Shapesmith, my vision was to create a simple, yet powerful 3D modelling application. Up to a few weeks ago my main focus was on creating a strong technical foundation that I could build on, and I'm quite pleased with the current architecture. Usability had been important, but not the top priority. This has changed.
 ---
 
 &ldquo;Make everything as simple as possible, but not simpler.&rdquo;  
@@ -45,6 +46,7 @@ Using the lessons learnt from the new transformations (including better abstract
 <div class="center"><img src="/img/tosimplicity/geometrycreation.png" alt="Geometry creation"/></div>
 
 The Tree View is still fully functional, and can be used to edit nodes that are not top-level nodes, existing transforms etc. by double-clicking on the values. The Tree View is hidden by default but still available to advanced users:
+
 
 <div class="center"><img src="/img/tosimplicity/advancedtreeview.png" alt="Hidden tree View"/></div>
 

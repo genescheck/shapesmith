@@ -2,31 +2,22 @@
 layout: layout
 ---
 
-<div class="row">
-  <div class="twocol">
-    <h4>Posts</h4>
-    <ul>
-      {% for post in site.posts %}
-      <li>
-	<div><a href="{{ post.url }}">{{ post.title }}</a><br/>
-	  <div class="date">{{ post.date | date:"%Y-%m-%d" }}</div>
-      </li>
-      {% endfor %}
-    </ul>
-    </div>
-
-    <div class="eightcol">
-
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">&nbsp;</div>
+    
+    <div class="span6 post">
+      
       {% if page.title_image %}
       <img style="float: right;" src="{{page.title_image}}"/>
       {% endif %}
-     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <h4>Posted on {{ page.date | date_to_string }} by <a href="http://twitter.com/bjnortier">Benjamin Nortier</a></h4>
-
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <h4 class="date">Posted on {{ page.date | date_to_string }} by <a href="http://twitter.com/bjnortier">Benjamin Nortier</a></h4>
+      
       <div class="post-content">
 	{{ content }}
       </div>
-
+      
       <script>
 	var idcomments_acct = 'cb1078b244d71cf4fd087c5c9f074195';
 	var idcomments_post_id;
@@ -34,8 +25,9 @@ layout: layout
       </script>
       <span id="IDCommentsPostTitle" style="display:none"></span>
       <script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
-
+      
     </div>
-    <div class="twocol last">
-    </div>
+    <div class="span3">&nbsp;</div>
+    
   </div>
+</div>

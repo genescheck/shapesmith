@@ -3,25 +3,24 @@ layout: layout
 title: Shapesmith Blog
 ---
 
-<div class="row">
-  <div class="twocol">
-  </div>
-
-  <div class="eightcol">
+<div class="container-fluid">
+  <div class="row-fluid">
     
-    <ul class="posts">
+    <div class="span3">&nbsp;</div>
+    <div class="span6">
+     
       {% for post in site.posts %}
-      <li>
-	<span class="date">{{ post.date | date:"%Y-%m-%d" }}</span><span><a href="{{ post.url }}">{{ post.title }}</a></span>
-      </li>
+      <div class="post-summary">
+	<a href="{{ post.url }}"><h2> {{ post.title}} </h2></a>
+	<div class="date">{{ post.date | date:"%Y-%m-%d" }}</div>
+	{{ post.summary }}
+	<p><a class="pull-right continue btn btn-primary" href="{{ post.url }}">Continue reading &raquo;</a></p>
+      </div>
       {% endfor %}
-    </ul>
+    </div>
+    
+    <div class="span3">&nbsp;</div>
   </div>
-  
 </div>
-<div class="twocol last">
-</div>
-</div>
-
 
 

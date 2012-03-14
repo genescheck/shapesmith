@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Hello Workplane
+summary: I have been working on some big changes to Shapesmith that makes it vastly more usable to create and edit models - the introduction of a workplane. The workplane will be the basis for mouse interaction when creating primitives, doing transformations etc. The workplane is centered at (0,0,0) at the moment, with no ability to move it around, but that's coming.
 ---
 
 I have been working on some big changes to Shapesmith that makes it vastly more usable to create and edit models - the introduction of a workplane. The workplane will be the basis for mouse interaction when creating primitives, doing transformations etc. The workplane is centered at (0,0,0) at the moment, with no ability to move it around, but that's coming.
 
 Here are some examples of how you can create models with the new workplane:
 
-<iframe src="http://player.vimeo.com/video/29986821" width="745" height="420" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/29986821" width="460" height="280" frameborder="0" webkitAllowFullScreen allowFullScreen></iframe>
 
 Rotation
 -------

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome to Shapesmith
+summary: <p>This has taken a bit longer than I had hoped! Welcome to the Shapesmith blog and my first post about <a href="http://www.shapesmith.net">shapesmith.net</a>. This is a quick update on the project and the plans for the near future.</p><p>Since <a href="http://www.1011ltd.com/web/blog/post/im_building_a_webgl_tool">posting on my blog</a> about working on this project, progress has been steady but slow. I have made some progress in terms of user features (such as undo/redo, saving of models and validation), but the majority of work has gone into making the backend lean and mean. Most noteworthy is the separation of api, database and worker components.</p>
 ---
 
 This has taken a bit longer than I had hoped! Welcome to the Shapesmith blog and my first post about <a href="http://www.shapesmith.net">shapesmith.net</a>. This is a quick update on the project and the plans for the near future.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Design management has arrived
+summary: I'm happy to announce some great new additions and changes to Shapesmith that I've been working on for the last 6 weeks. These have been deployed online and version 0.3 on github. 
 ---
 
 I'm happy to announce some great new additions and changes to Shapesmith that I've been working on for the last 6 weeks. These have been [deployed online](http://cloud.shaesmith.net) and version 0.3 on [github](http://www.github.com/bjnortier/shapesmith). These are:
