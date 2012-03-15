@@ -43,3 +43,7 @@ header {
 .post h2, .post img {
     padding: 20px 0;
 }
+
+#IDCommentsPostTitle {
+    padding-top: 50px;
+}
