@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Beziers, Polylines, Arcs, Revolves, Fillets, Lofts & plane mirror
-title_image: /img/tosimplicity/buzz.png
+title: 0.7 - Beziers, Polylines, Arcs, Revolves, Fillets, Lofts & Plane mirror
 summary: It all started with an airfoil. I created Shapesmith because I wanted to design & 3D print a UAV, and the tools available were not what I wanted. Well, I'm happy to announce that I (and YOU*) can design bezier-based, parametric airfoils with Shapesmith 0.7
 ---
 
