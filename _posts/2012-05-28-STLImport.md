@@ -27,7 +27,7 @@ Shapesmith is build on top of a solid modelling kernel known as [OpenCASCADE](ht
 
 What this essentially means is that the model is described in terms of mathematical equations describing the boundaries on (potentially curved) surfaces of the model, as opposed to representing the model as a collection of flat triangles (a 'discrete' representation).
 
-A useful analogy in that a BRep model is to Mesh model as a Vector image is to a Bitmap image. There are some advantages and disadvantages to using BRep, compared to a mesh representation.
+A useful analogy is that a BRep model is to Mesh model as a Vector image is to a Bitmap image. There are some advantages and disadvantages to using BRep, compared to a mesh representation.
 
 BRep is resolution independant. If you have an object with curves like a small sphere, and scale it up to 100x it's original size, it will still be an accurate sphere. But for mesh representations, the model will lose resolution - in the same way that bitmaps become pixelated when you zoom in, but vector images retain their exact shape. This is great for parametric models, since you can re-evauluate any object in the hierarchy and still have an accurate result.
 
