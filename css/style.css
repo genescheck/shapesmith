@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 a:visited {
   text-decoration: none;
 }
@@ -61,15 +65,27 @@ a:visited {
 }
 
 .row {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
+ul {
+    padding-left: 20px;
+}
+
+ul#navlist {
+    padding-left: 0;
+}
 
 #navlist li {
   display: inline;
   list-style-type: none;
   padding-right: 20px;
+ 
   font-size: 1.1em;
+}
+
+footer {
+    padding-top: 20px;
 }
 
 .thumbnails {
@@ -86,11 +102,27 @@ a:visited {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
+h1 a, h2 a, h3 a {
+    color: #0074CC;
+    line-height: 1.1em;
+}
+
+.continue-reading {
+    text-align: right;
+    cursor: pointer;
+}
+
+.continue-reading a, .post a, .about a {
+    color: #0074CC;
+}
+
+
+
 .post-summary {
     padding-bottom: 50px;
 }
 
-.post p, .post-summary, .about p {
+.post, .about {
     font-size: 14px;
 }
 
@@ -98,8 +130,12 @@ a:visited {
     padding-bottom: 20px;
 }
 
-.post h2, .post img {
+.post h2 {
     padding: 20px 0;
+}
+
+.post p, .about p {
+    padding: 10px 0;
 }
 
 #IDCommentsPostTitle {
