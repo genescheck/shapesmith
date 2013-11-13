@@ -4,6 +4,17 @@ body {
   font-weight: 300;
 }
 
+#looking-for-old {
+  text-align: center;
+  color: yellow;
+  background-color: black;
+  padding: 5px 0px;
+}
+
+#looking-for-old a {
+  color: white;
+}
+
 #navlist {
   padding-top: 20px;
 }
